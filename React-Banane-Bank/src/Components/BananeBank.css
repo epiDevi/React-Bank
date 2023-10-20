@@ -1,0 +1,54 @@
+#logoImg {
+  width: 100px;
+  height: 100px;
+}
+
+.konto {
+  color: #6b3e26;
+  background-color: #fffbc9;
+  border: 1px solid #fbec5d;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.saldo {
+  background-color: #fbec5d;
+  color: #ffffff;
+  border: 1px solid #fbec5d;
+  border-radius: 15px;
+  font-family: "Ruluko", sans-serif;
+  font-size: 50px;
+  margin: 5px;
+  padding: 25px 0px;
+}
+.geldbetrag {
+  margin: 0 0.25rem;
+  min-width: 125px;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  transition: border-color 0.5s ease-out;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: #fbec5d 0px 10px 36px 0px, #fbec5d 0px 0px 0px 1px;
+}
+.auszahlen,
+.einzahlen {
+  margin: 5px;
+  background-color: #fbec5d;
+  color: #6b3e26;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auszahlen:hover,
+.einzahlen:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
